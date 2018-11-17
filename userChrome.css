@@ -1,0 +1,7 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+/* hide main menu button in address bar*/
+#PanelUI-menu-button
+{
+	display: none !important;
+}
