@@ -5,3 +5,24 @@
 {
 	display: none !important;
 }
+
+
+/* make add bookmark panel bigger and more comfortable */
+#editBookmarkPanel
+{
+	min-width: 500px !important;
+	min-height: 900px !important;
+}
+
+/* Make folder tree bigger and easier to find target directory */
+#editBMPanel_folderTree
+{
+	min-height: 500px !important;
+}
+
+/* Make folder tree always visible - unfortunetly needs one click
+on "show all" at start, then it will be always visible, at least in current window */
+#editBMPanel_folderTreeRow
+{
+	visibility: visible !important;
+}
