@@ -26,3 +26,9 @@ on "show all" at start, then it will be always visible, at least in current wind
 {
 	visibility: visible !important;
 }
+
+/* Disable visibility of image in panel header */
+#editBookmarkPanelImage
+{
+	display: none !important;
+}
