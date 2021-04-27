@@ -37,3 +37,9 @@ on "show all" at start, then it will be always visible, at least in current wind
 {
 	display: none !important;
 }
+
+/* Hide "Print selection" on right button menu */
+#context-print-selection 
+{ 
+	display: none !important;
+}
