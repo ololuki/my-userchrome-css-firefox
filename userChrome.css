@@ -43,3 +43,25 @@ on "show all" at start, then it will be always visible, at least in current wind
 { 
 	display: none !important;
 }
+
+/* Remove margin around download item which is actually clickable, but not highlighted on hover (Download progress popup).
+Now whole area of tile should be highlighted and link to downloaded item.
+Works with Firefox 90 */
+#downloadsListBox > richlistitem > .downloadMainArea {
+  height: inherit !important;
+}
+
+/* Remove margins around download item button (Download progress popup) - prepare for Firefox 93 (experiments on nightly) */
+/*
+#downloadsListBox > richlistitem {
+  padding: 0 !important;
+  margin: 0 !important;
+  border-radius: 0 !important;
+}
+*/
+
+/* Make open containing folder great again - fill whole height of the tile (Download progress popup).
+Works with Firefox 90 */
+#downloadsListBox > richlistitem > .downloadButton {
+  height: inherit !important;
+}
