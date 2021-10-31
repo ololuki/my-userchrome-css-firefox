@@ -65,3 +65,9 @@ Works with Firefox 90 */
 #downloadsListBox > richlistitem > .downloadButton {
   height: inherit !important;
 }
+
+/* Make search panel white again (disable transparency).
+Works with Firefox 93 */
+#PopupSearchAutoComplete {
+    --panel-background: rgba(255, 255, 255, 1) !important;
+}
