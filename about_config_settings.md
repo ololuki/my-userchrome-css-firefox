@@ -9,3 +9,13 @@ Value to set:
 ```
 false
 ```
+
+## Prevent text deselection on middle button click
+This option was introduced around Firefox 93, for earlier versions use: https://github.com/ololuki/AutoScroll
+```
+general.autoscroll.prevent_to_collapse_selection_by_middle_mouse_down
+```
+Value to set:
+```
+true
+```
