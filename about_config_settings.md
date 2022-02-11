@@ -19,3 +19,14 @@ Value to set:
 ```
 true
 ```
+
+## Disable dark background
+Is annoing users since around Firefox 97
+```
+layout.css.prefers-color-scheme.content-override
+```
+Value to set to force light background:
+```
+1
+```
+More info: https://support.mozilla.org/en-US/questions/1364263
