@@ -30,3 +30,12 @@ Value to set to force light background:
 1
 ```
 More info: https://support.mozilla.org/en-US/questions/1364263
+
+## Disable blocking Paste event on some text fields
+```
+dom.event.clipboardevents.enabled
+```
+Value to set to allow pasting:
+```
+false
+```
