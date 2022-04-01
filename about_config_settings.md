@@ -31,11 +31,21 @@ Value to set to force light background:
 ```
 More info: https://support.mozilla.org/en-US/questions/1364263
 
-## Disable blocking Paste event on some text fields
+## Disable blocking Paste event on some text fields (optional - change this value only on broken sites that blocks copy paste on text field)
 ```
 dom.event.clipboardevents.enabled
 ```
 Value to set to allow pasting:
+```
+false
+```
+
+## Use temp directory for temporary files and download directory for downloaded files
+Is annoying users since around Firefox 97 when mozilla forces you to mix temporary crap with wanted downloaded files in the same directory without asking.
+```
+browser.download.improvements_to_download_panel
+```
+Value to set to prevent mixing crap with wanted files and use temp directory for temp files:
 ```
 false
 ```
