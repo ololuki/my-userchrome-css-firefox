@@ -49,3 +49,13 @@ Value to set to prevent mixing crap with wanted files and use temp directory for
 ```
 false
 ```
+
+## Use old, small private window indicator
+Is annoying users since around Firefox 106 when mozilla decided that very big and long text inside tabs bar is a good idea.
+```
+browser.privatebrowsing.enable-new-indicator
+```
+Value to set to have small indicator instead of big, long text that steals place for opened tabs:
+```
+false
+```
