@@ -59,3 +59,13 @@ Value to set to have small indicator instead of big, long text that steals place
 ```
 false
 ```
+
+## Disable "Extensions" button
+Is annoying users since around Firefox 109, when mozilla decided that forcing unmovable and never needed button on main bar is a good idea.
+```
+extensions.unifiedExtensions.enabled
+```
+Value to set to disable this button:
+```
+false
+```
