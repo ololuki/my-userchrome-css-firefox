@@ -78,3 +78,8 @@ Annoying since Firefox 111 */
   width: 0px !important;
   padding: 0px !important;
 }
+
+/* Remove "Synced Tabs" button from History menu */
+#sync-tabs-menuitem {
+  display:none!important;
+}
