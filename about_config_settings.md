@@ -73,3 +73,12 @@ Value to set to disable this button:
 ```
 false
 ```
+
+## Use backspace key to go to previous page
+```
+browser.backspace_action
+```
+Value to set to go to previous page on backspace key press:
+```
+0
+```
