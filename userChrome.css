@@ -83,3 +83,8 @@ Annoying since Firefox 111 */
 #sync-tabs-menuitem {
   display:none!important;
 }
+
+/* Remove navigation buttons (back, forward) from Right Mouse Button menu */
+#context-navigation, #context-sep-navigation { 
+  display: none !important 
+}
