@@ -86,3 +86,12 @@ Value to set to go to previous page on backspace key press:
 ```
 0
 ```
+
+## Allow setting "Compact" density in "Customize Toolbar"
+```
+browser.compactmode.show
+```
+Value to set to show "Compact" option:
+```
+true
+```
