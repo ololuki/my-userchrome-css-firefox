@@ -45,13 +45,17 @@ Is annoying users since around Firefox 97 when mozilla forces you to mix tempora
 ```
 browser.download.improvements_to_download_panel
 ```
+Value to set to prevent mixing crap with wanted files and use temp directory for temp files:
+```
+false
+```
 Since Firefox 102 replaced with:
 ```
 browser.download.start_downloads_in_tmp_dir
 ```
 Value to set to prevent mixing crap with wanted files and use temp directory for temp files:
 ```
-false
+true
 ```
 
 ## Use old, small private window indicator
