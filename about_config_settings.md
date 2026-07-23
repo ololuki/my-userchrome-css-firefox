@@ -95,3 +95,12 @@ Value to set to show "Compact" option:
 ```
 true
 ```
+
+## Always show http prefix in address bar
+```
+browser.urlbar.trimURLs
+```
+Value to set to prevent jumping of the address like a monkey on a rubber band:
+```
+false
+```
